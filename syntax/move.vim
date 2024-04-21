@@ -55,6 +55,9 @@ syn match     moveDefault     /\<default\ze\_s\+\(impl\|fn\|type\|const\)\>/
 syn keyword   moveAwait       await
 syn match     moveKeyword     /\<try\>!\@!/ display
 
+syn keyword   moveHasKeyword  has nextgroup=moveAbility skipwhite skipempty
+syn keyword   moveAbility     key store copy drop
+
 syn keyword movePubScopeCrate crate contained
 syn match movePubScopeDelim /[()]/ contained
 syn match movePubScope /([^()]*)/ contained contains=movePubScopeDelim,movePubScopeCrate,moveSuper,moveModPath,moveModPathSep,moveSelf transparent
@@ -371,6 +374,9 @@ hi def link moveAsmDirSpec    moveKeyword
 hi def link moveAsmSym        moveKeyword
 hi def link moveAsmOptions    moveKeyword
 hi def link moveAsmOptionsKey moveAttribute
+
+hi def link moveHasKeyword    Keyword
+hi def link moveAbility       moveAttribute
 
 " Other Suggestions:
 " hi moveAttribute ctermfg=cyan
