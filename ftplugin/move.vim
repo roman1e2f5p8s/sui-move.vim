@@ -1,7 +1,8 @@
 " Vim filetype file
-" Language: Move 
-" Maintainer: Richard Melkonian 
-" Latest Revision: 05 May 2021
+" Language: Sui Move 
+" Maintainer: Roman Overko 
+" Forked from Richard Melkonian 
+" Latest Revision: 21 April 2024
 
 setlocal commentstring=//\ %s
 setlocal tabstop=4

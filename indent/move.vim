@@ -1,7 +1,8 @@
 " Vim indent file
-" Language:         Move
-" Author:           Richard Melkonian <r.v.melkonian@gmail.com>
-"Last Change:       28 Jul 2022 
+" Language: Sui Move 
+" Author: Roman Overko 
+" Forked from Richard Melkonian 
+" Latest Revision: 21 April 2024
 
 " Only load this indent file when no other was loaded.
 if exists("b:did_indent")

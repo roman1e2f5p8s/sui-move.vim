@@ -1,6 +1,8 @@
 " Vim syntax file
-" Language: Move 
-" Maintainer: Richard Melkonian <r.v.melkonian@gmail.com>
+" Language: Sui Move 
+" Author: Roman Overko 
+" Forked from Richard Melkonian 
+" Latest Revision: 21 April 2024
 " Latest Version: 0.1.0
 
 if exists("b:current_syntax")
